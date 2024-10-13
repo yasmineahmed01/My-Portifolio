@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F1E5D1, #DBB5B5, #C39898);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    color: #6C4E31;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p {
+    color: #6C4E31;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 120%;
+    font-style: normal;
+    font-variation-settings: 100;
+  }
+
+  .btn {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 130%;
+    font-style: italic;
+  }
